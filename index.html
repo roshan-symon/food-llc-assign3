@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FOOD LLC</title>
+
+	<!-- href links to where the files are located on the local machine -->
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- in the attribute class -navbar can have subclasses . here navbar-default(in bootstrap 4 it is now changed to navbar-light) is one -->
+		<nav id="header-nav" class="navbar navbar-expand-md navbar-light bg-light">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="index.html"><h1>FOOD LLC</h1></a>
+					
+					<button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav d-block d-md-none">
+						<li class="text-center">
+							<a href="#"><br>Chicken</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li class="text-center">
+							<a href="#"><br>Beef</a>
+						</li>
+						<li role="separator" class="divider"></li>
+						<li class="text-center">
+							<a href="#"><br>Sushi</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<h2 class="text-center">Our Menu</h2>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="menu-box">
+				<span>Chicken</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus bibendum eu libero sed accumsan. Vestibulum eu diam malesuada, ultrices felis sit amet, lacinia odio. Proin faucibus dui eget luctus fringilla. Donec tortor eros, aliquam eget hendrerit varius, placerat eget neque. Aliquam inibus sodales blandit</p></div>
+			</div>
+			<div class="col-xs-12">
+				<div id="menu-box">
+				<span>Beef</span>
+				<p> Nam nec lobortis orci. Curabitur diam erat, semper at efficitur quis, imperdiet vel urna. Maecenas lorem est, blandit vitae porttitor imperdiet, laoreet condimentum dolor. Nulla tempor dolor in lacus luctus, sed mollis ante porta. Etiam maximus enim sapien, ac porta leo malesuada vitae. Duis aliquam massa purus, at aliquet dui blandit quis.</p></div>
+			</div>	
+			<div class="col-xs-12">
+				<div id="menu-box">
+				<span>Sushi</span>
+				<p>Pellentesque vel nibh maximus quam faucibus luctus efficitur et neque. Fusce est diam, consectetur bibendum lacus a, tempus dapibus lacus. Cras molestie elit et eros tempor, sed laoreet lacus rhoncus. Aenean consequat urna non tortor ultrices semper. Nam dolor sapien, iaculis et arcu non, sagittis condimentum justo.</p></div>
+			</div>
+		</div>	
+	</div>
+
+	<!--jQuery (Bootstrap JS plugins depend on it)-->
+	<script src="/js/jquery-3.4.1.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+
+</body>
+</html>
